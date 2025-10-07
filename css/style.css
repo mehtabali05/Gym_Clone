@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: "Baloo Bhai 2", sans-serif;
+}
+
+
+body{
+    background: url('../images/bg2.png') no-repeat center center/cover;
+    /* background-size: cover; */
+}
+
+/* #content::before{
+    background-image: url('../images/bg2.png');
+    background-size: cover;
+    content: "";
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 2;
+} */
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 12px;
+    top: 7px;
+}
+
+.left img {
+    width: 60px;
+    display: block;
+    margin: auto;
+}
+
+.left p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.center {
+    width: 43%;
+    margin: auto;
+    margin-top: 29px;
+}
+
+.center li {
+    display: inline-block;
+    padding: 6px 3px;
+    margin: 2px 16px;
+    font-size: 20px;
+}
+
+
+.center ul li a {
+    text-decoration: none;
+}
+
+.center ul li a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 29px;
+    top: 28px;
+    /* margin-top: 21px 5px; */
+}
+
+
+.btn {
+    background-color: black;
+    border: 2px solid white;
+    padding: 5px 6px;
+    margin: 3px 4px;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: gray;
+}
+
+
+.container {
+    border: 2px solid white;
+    width: 35%;
+    padding: 35px 25px;
+    margin: 130px 150px;
+    border-radius: 21px;
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 21px;
+}
+
+.container .inputfields input {
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin: 5px auto;
+    border-radius: 12px;
+    border: none;
+    font-size: 17px;
+    padding: 5px 7px;
+    color: black;
+}
+
+.container button {
+    background-color: black;
+    border: 2px solid white;
+    padding: 7px 101px;
+    margin: 23px 109px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: grey;
+}
